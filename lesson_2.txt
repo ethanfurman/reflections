@@ -1,0 +1,33 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Metadata is created and stored in a hidden directory.  This is needed so that git can track files.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a temporary location that allows one to specify precisely what will go into a commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Use `git diff --cache` to check the changes.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When tracking logically separate ideas.
+
+
+How do the diagrams help you visualize the branch structure?
+
+pretty picture
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+a combined branch
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+saves bunches of time
